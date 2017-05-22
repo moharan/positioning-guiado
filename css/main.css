@@ -12,20 +12,37 @@ body {
 .caja {
 	width: 200px;
 	height: 200px;
+	/*desafio 3*/
+	position: absolute;
 }
 
 #rosa {
 	background-color: #EE3E64;
+	/*desafio 3*/
+	left: 0;
+	top: 0;
 }
 
 #azul {
 	background-color: #2b7db9;
-	/*desafio 1*/
+	/*desafio 1
 	position: relative;
-	left: 200px;
+	left: 200px;*/
+	/*desafio 3*/
+	right: 0;
+	top: 0;
 }
 
 #verde {
 	background-color: #B7D84B;
+	/*desafio 3*/
+	left: 0;
+	bottom: 0;
+}
+/*desafio 3*/
+#amarillo {
+	background-color: #FAFF16;
+	right: 0;
+	bottom: 0;
 }
 
